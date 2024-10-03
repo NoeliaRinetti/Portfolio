@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecera__titulo">Noelia R.</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Mis Redes</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, mi nombre es Noelia y desarrollo páginas web</h2>
+            <p class="presentacion__subtitulo">Soy formada en Comunicación Audiovisual en la Universidad Nacional de San Martín y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+        </div>
+    </section>
+
+    <!-- Sección Mis redes -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Mis Redes</h2>
+        <p class="sobre-mi__texto">Si querés conocer más sobre mí podés acceder a mis redes:</p>
+     <div class="sobre-mi__enlaces__link__contenedor">
+        <a class="sobre-mi__enlaces__link" href="https://github.com/">
+            <img src="./assets/github.png">
+            Github
+        </a>
+        <a class="sobre-mi__enlaces__link" href="https://linkedin.com/in/">
+            <img src="./assets/linkedin.png">
+            Linkedin
+        </a>
+     </div>
+       
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/html.png.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/Accesibilidad.png" alt="React">
+                <p class="habilidades__nombre">Comunicación accesible</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/viajar.png" alt="Icono de una persona con mochila viajando">
+                <p class="aficiones__nombre">Viajar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/observar aves.png" alt= "Icono de un colibrí">
+                <p class="aficiones__nombre">Observar aves</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/jardineria.png" alt="Icono de persona plantando un árbol" >
+                <p class="aficiones__nombre">Hacer jardineria</p>
+            </li>
+             <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/contemplar.png" alt="Icono de una persona acostada en una reposera contemplando">
+                <p class="aficiones__nombre">Contemplar</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Logo de Alura">
+                <div class= "formacion__texto">
+                    <h3 class="formacion__nombre">Front-end Developer </h3>
+                    <p class="formacion__detalle">En curso - Alura</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/unsam-logo.png" alt="Logo de la Universidad de San Martín">
+                <div class=" formacion__texto">
+                    <h3 class="formacion__nombre">Licenciatura en Comunicación Audiovisual</h3>
+                    <p class="formacion__detalle">2017 - UNSAM</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+       <div class="proyectos__lista"> 
+        <div class="proyectos__contenedor">
+            <img class="proyectos__imagen" src="assets/Alura Play.png" alt="">
+            <h3 class="proyectos__nombre">Alura Play</h3>
+            <p class="proyectos__descripcion">Proyecto realizado para el curso de "CSS, Flexbox y Layouts responsivos" de Alura Latam </p>
+            <a href="https://github.com/NoeliaRinetti/AluraPlay.git" target="_blank">
+                <button class="proyectos__boton">Repositorio</button>
+            </a>    
+            <a href="https://noeliarinetti.github.io/AluraPlay/" target="_blank">    
+                <button class="proyectos__boton">Ver demo</button>
+            </a>   
+        </div>    
+
+        <div class="proyectos__contenedor">
+            <img class="proyectos__imagen" src= "assets/encriptador.png" alt ="">
+            <h3 class="proyectos__nombre">Encriptador de texto</h3>
+            <p class="proyectos__descripcion">Proyecto realizado para el curso "Prácticando lógica de programación: Challenge Encriptador de texto" de Alura Latam </p>
+            <a href="https://github.com/NoeliaRinetti/challenge-encriptador-de-texto" target="_blank">
+                <button class="proyectos__boton" >Repositorio</button>
+            </a>
+            <a href="https://noeliarinetti.github.io/challenge-encriptador-de-texto/" target="_blank">
+                <button class="proyectos__boton">Ver demo</button>
+            </a>    
+        
+        </div>
+
+        <div class="proyectos__contenedor">
+            <img class="proyectos__imagen" src= "assets/juego del numero secreto.png" alt ="">
+            <h3 class="proyectos__nombre">Juego del número secreto</h3>
+            <p class="proyectos__descripcion">Proyecto realizado para el curso de "Lógica de programación: explorar funciones y listas" de Alura Latam</p>
+            <a href="https://github.com/NoeliaRinetti/Juego-del-Numero-Secreto.git" target="_blank">
+                <button class="proyectos__boton">Repositorio</button>
+            </a>    
+            <a href="https://noeliarinetti.github.io/Juego-del-Numero-Secreto/" target="_blank">
+                <button class="proyectos__boton">Ver demo</button>
+            </a>    
+        </div>
+     </div> 
+
+       
+
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <P class="contacto__descripcion">Completá el formulario y me pondré en contacto lo antes posible</P>
+        <form class="contacto__formulario">
+            <input class="contacto__campo" type="text" placeholder="Nombre">
+            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+        </form>
+        <button class="contacto__boton" type="submit">Enviar mensaje</button>
+
+    </section>
+</body>
+<footer class="footer">
+    <p>Desarrollado por Noelia R.</p>
+    <p>2024</p>
+</footer>
+
+    <script src="script.js"></script>
+</html>
