@@ -56,7 +56,7 @@ a {
 }
 /* ------------------------------ Sección Presentación ------------------------------*/
 .presentacion {
-    text-align:justify;
+    text-align: start;
     background-color: var(--color-de-fondo-menu);
    
 }
